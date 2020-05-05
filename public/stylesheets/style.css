@@ -20,13 +20,6 @@ body {
   border: 0.1px solid rgb(190, 190, 190);
   padding: 15px 75px;
 }
-.box-top {
-  width: auto;
-  height: 300px;
-  margin: 20px;
-  background-position: center;
-  border-radius: 5px;
-}
 .form-check {
   display: flex;
   justify-content: center;
@@ -53,4 +46,37 @@ body {
   letter-spacing: 1px;
   text-align: center;  
   line-height: 90px;
+}
+
+.box-top {
+  width: auto;
+  height: 200px;
+  margin: 20px;
+  background-position: center;
+  background-size: 300px;
+  border-radius: 5px;
+}
+.box2 {
+  background-position: top; 
+}
+
+@media (min-width: 768px) { 
+.box-top {
+  height: 250px;
+  background-size: auto;
+}
+.box2 {
+  background-position: top; 
+  background-size: 300%
+}
+}
+
+@media (min-width: 992px) { 
+.box-top {
+  height: 300px;
+}
+.box2 {
+  background-position: top; 
+  background-size: 200%
+}
 }
