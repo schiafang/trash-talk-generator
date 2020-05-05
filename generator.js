@@ -20,7 +20,6 @@ function generator (career) {
   if (career === 'entrepreneur') {
     result = task.entrepreneur[randomIndex(task.entrepreneur)] + phrase[randomIndex(phrase)]
   }
-  else { result = '點選一個 你想對誰說幹話～' }
 
   return result
 }
