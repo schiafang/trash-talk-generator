@@ -20,8 +20,8 @@ function generator (career) {
   if (career === 'entrepreneur') {
     result = task.entrepreneur[randomIndex(task.entrepreneur)] + phrase[randomIndex(phrase)]
   }
-
-  return result
+  if (result.length === 0) { return '點選一個 你想對誰說幹話～' }
+  else { return result }
 }
 
 module.exports = generator
