@@ -1,0 +1,62 @@
+/* * {
+  border: 0.1px solid pink;
+} */
+
+body {
+  background-color: rgb(250, 249, 249);
+}
+.navbar {
+  height: 90px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: rgb(250, 249, 249);
+}
+.navbar-brand {
+  margin-left: 115px;
+  font-size: 30px;
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: rgb(201, 54, 54);
+  width: 200px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.container {
+  border: 0.1px solid rgb(190, 190, 190);
+  padding: 15px 75px;
+}
+.box-top {
+  width: auto;
+  height: 300px;
+  margin: 20px;
+  background-position: center;
+  border-radius: 5px;
+}
+.form-check {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+.form-check-input {
+  size: 10px;
+  margin: 7px -55px;
+}
+.form-check-label {
+  font-size: 25px;
+  margin-top: -3px;
+}
+.btn {
+  margin-top: 40px;
+}
+.form-control {
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(222, 222, 222);
+  color: rgb(228, 51, 98);
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;  
+  line-height: 90px;
+}
+
+@media
