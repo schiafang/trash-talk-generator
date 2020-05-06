@@ -12,14 +12,15 @@ function generator (career) {
   }
 
   if (career === 'engineer') {
-    result = task.engineer[randomIndex(task.engineer)] + phrase[randomIndex(phrase)]
+    result = '身為一個工程師，' + task.engineer[randomIndex(task.engineer)] + phrase[randomIndex(phrase)] + '吧！'
   }
   if (career === 'designer') {
-    result = task.designer[randomIndex(task.designer)] + phrase[randomIndex(phrase)]
+    result = '身為一個設計師，' + task.designer[randomIndex(task.designer)] + phrase[randomIndex(phrase)] + '吧！'
   }
   if (career === 'entrepreneur') {
-    result = task.entrepreneur[randomIndex(task.entrepreneur)] + phrase[randomIndex(phrase)]
+    result = '身為一個創業家，' + task.entrepreneur[randomIndex(task.entrepreneur)] + phrase[randomIndex(phrase)] + '吧！'
   }
+
   if (result.length === 0) { return '點選一個 你想對誰說幹話～' }
   else { return result }
 }
