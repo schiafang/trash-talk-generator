@@ -18,6 +18,7 @@ function generator (career) {
       result = '身為一個' + careers[i] + '，' + task[key][i] + phrase[randomIndex(phrase)] + '吧！'
     }
   }
+
   if (result.length === 0) { return '點選一個 你想對誰說幹話～' }
   else { return result }
 }
