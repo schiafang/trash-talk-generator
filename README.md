@@ -10,19 +10,22 @@
 
 ## Installation
 
-[Download](https://github.com/schiafang/trash-talk-generator/archive/master.zip) or clone repository to your local computer.
+[Download](https://github.com/schiafang/trash-talk-generator/archive/master.zip) or **clone** repository to your local computer.
 ```
 $ git clone https://github.com/schiafang/trash-talk-generator.git
 ```
-Install express
+**Install** express
 ```
 $ npm i express
 ```
-Execute
+**Execute** node app.js
+```
+$ npm start  
+```
+
+or execute nodemon app.js
 ```
 $ npm run dev 
-or
-$ npm start
 ```
 `The server listening on localhost:3000` will show on terminal when server connect success.
 
